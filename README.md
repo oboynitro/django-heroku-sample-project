@@ -1,29 +1,29 @@
-###Set up
+### Set up
 
-- clone the repo with git clone https://github.com/oboynitro/django-heroku-sample-project.git
++ clone the repo with git clone https://github.com/oboynitro/django-heroku-sample-project.git
 
-- you can rename the project folder to your site name
++ you can rename the project folder to your site name
 
-- create a virtual environment
-	`$ virtualenv venv`
++ create a virtual environment
+	+ `$ virtualenv venv`
 
-- activate virtual environment and install the requirements file packages
-	`$ source venv/bin/activate` # for linux users
-	`$ source venv\bin\activate` # for windows users with git bash
-	`$ venv\Scripts\activate` # for windows users with command line
++ activate virtual environment and install the requirements file packages
+	+ `$ source venv/bin/activate` # for linux users
+	+ `$ source venv\bin\activate` # for windows users with git bash
+	+ `$ venv\Scripts\activate` # for windows users with command line
 
-	`$ pip install -r requirements.txt` # for windows 
-	`$ pip3 install -r requirements.txt` # for mac and linux
+	+ `$ pip install -r requirements.txt` # for windows 
+	+ `$ pip3 install -r requirements.txt` # for mac and linux
 
-- install [heroku-cli](https://devcenter.heroku.com/articles/heroku-cli "heroku-cli")
++ install [heroku-cli](https://devcenter.heroku.com/articles/heroku-cli "heroku-cli")
 
-- run heroku login
++ run heroku login
 
-- create new app on heroku from the browser or from the command line using heroku-cli
-	`$ heroku create my-app`
++ create new app on heroku from the browser or from the command line using heroku-cli
+	+ `$ heroku create my-app`
 
-- add your remote heroku app to your local git
-	`$ heroku git:remote -a my-app`
-	
-- push your app to heroku
-	`$ git push heroku main`
++ add your remote heroku app to your local git
+	+ `$ heroku git:remote -a my-app`
+
++ push your app to heroku
+	+ `$ git push heroku main`
