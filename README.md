@@ -9,7 +9,7 @@
 
 + activate virtual environment and install the requirements file packages
 	+ `$ source venv/bin/activate` # for linux users
-	+ `$ source venv\bin\activate` # for windows users with git bash
+	+ `$ source venv\Scripts\activate` # for windows users with git bash
 	+ `$ venv\Scripts\activate` # for windows users with command line
 
 	+ `$ pip install -r requirements.txt` # for windows 
