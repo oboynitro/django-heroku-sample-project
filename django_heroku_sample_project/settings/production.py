@@ -6,7 +6,7 @@ SECRET_KEY = 'django-insecure--vsg-zph&$bj$_7t3&(6w6j6=sl_jl5+^u@dz3ha4e+5lw*=@6
 
 DEBUG = False
 
-ALLOWED_HOSTS = ["https://django-heroku-sample-project.herokuapp.com/"]
+ALLOWED_HOSTS = ["django-heroku-sample-project.herokuapp.com"]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
