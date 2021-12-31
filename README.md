@@ -25,5 +25,10 @@
 + add your remote heroku app to your local git
 	+ `$ heroku git:remote -a my-app`
 
++ edit your Procfile and change 'django_heroku_sample_project' to your heroku app name 'my-ap'
+
++ edit your runtime.txt file and change the python version as per your environment
+	+ `$ python -V` # to check your python version. remember to activate your virtual environment first
+
 + push your app to heroku
 	+ `$ git push heroku main`
